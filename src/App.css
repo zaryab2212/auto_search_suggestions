@@ -1,0 +1,56 @@
+
+h1{
+    text-align: center;
+    font-weight: 600;
+    font-family: sans-serif;
+    color: cadetblue;
+}
+
+input{
+
+    font-size: 1.2rem;
+text-align: start;
+    width: 80%;
+    padding: .9rem 1.1rem;
+    outline: none;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border: 1px solid cadetblue;
+}
+
+ul{ margin: 0;
+    width: 80%;
+    border-top: none;
+    padding: 1rem 1.1rem;
+  background-color: rgb(235, 235, 235);
+    border: 1px solid cadetblue;
+    text-align: center;
+    max-height: 200px;
+    overflow-y: scroll;
+}
+
+ul > li{
+    text-decoration: none;
+    list-style:none;
+    text-align: start;
+    font-size: 1.2rem;
+    padding: .3rem;
+
+}
+
+.selectedClass{
+    background: cadetblue;
+    cursor: pointer;
+ 
+}
+
+
+/* ul > li:hover{
+    background: cadetblue;
+    cursor: pointer;
+} */
+.main{position: relative;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;}
